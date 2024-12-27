@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* Container Styles */
+#container {
+    width: 100%;
+    max-width: 750px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#heading {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Input and Button Styles */
+#input-div {
+    margin: 15px 0;
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Meaning Block Styles */
+#meaning-block {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 400px; 
+    overflow-y: auto; 
+    padding-right: 10px; 
+}
+
+#meaning-block h2 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+#meaning-block h3 {
+    font-size: 1em;
+    color: #555;
+    margin-top: 10px;
+}
+
+#meaning-block p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0;
+}
+
+.active-container {
+    border: 2px solid #007bff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%; 
+    max-width: 800px;
+    scroll-behavior: smooth;
+}
+
+.active-meaning-block {
+    padding-top: 10px;
+}
